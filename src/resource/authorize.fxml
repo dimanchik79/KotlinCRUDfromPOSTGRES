@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lbl_auth" layoutX="231.0" layoutY="169.0" prefHeight="16.0" prefWidth="139.0" text="АВТОРИЗИРУЙТЕСЬ" />
+      <TextField fx:id="auth_usermane" layoutX="215.0" layoutY="223.0" rotate="180.0" />
+      <TextField fx:id="auth_password" layoutX="216.0" layoutY="282.0">
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <Button fx:id="auth_enter" layoutX="270.0" layoutY="334.0" mnemonicParsing="false" text="Войти" />
+      <AnchorPane layoutY="-2.0" prefHeight="144.0" prefWidth="600.0" style="-fx-background-color: grey;" />
+      <Label fx:id="lbl_auth1" layoutX="240.0" layoutY="207.0" prefHeight="16.0" prefWidth="124.0" text="Ваш псевдоним" />
+      <Label fx:id="lbl_auth11" layoutX="272.0" layoutY="266.0" prefHeight="16.0" prefWidth="60.0" text="Пароль" />
+      <Label layoutX="256.0" layoutY="394.0" prefHeight="16.0" prefWidth="92.0" text="Регистрация">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
