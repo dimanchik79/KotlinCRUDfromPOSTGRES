@@ -13,9 +13,6 @@ fun main(args: Array<String>) {
 
     val count = database.getCountQueryData(connection,  table = "users", query = "code=61")
     println(count)
-    println(count)
-    println(count)
-    println(count)
 
     Application.launch(FXMLApplication::class.java, *args)
 }

@@ -145,7 +145,7 @@ class DB(host: String, port: Int, private val username: String, private val pass
         }
         catch (e: SQLException) {
             println("Ошибка при получении данных в таблице $table: $e")
-            return 0
+            return -1
         }
     }
 
